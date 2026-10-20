@@ -1,106 +1,22 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Porchlight Web | Websites for local service businesses</title>
-<meta name="description" content="Professional websites for plumbers, landscapers, roofers, cleaners and other local businesses. We build it first. You only pay if you love it.">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
-<style>
-:root{--accent:#f59e0b;--ink:#14171c;--muted:#5b6370;--soft:#f6f5f2;--line:#e6e2da;--night:#141821}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
-.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-header{background:var(--night);color:#fff}
-header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
-.logo{font-weight:800;font-size:19px;display:flex;gap:10px;align-items:center}
-.logo i{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 50% 40%,#ffe7a3,var(--accent) 60%,#b45309);display:inline-block;box-shadow:0 0 22px rgba(245,158,11,.6)}
-.btn{display:inline-block;background:var(--accent);color:#1a1205;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:10px}
-.btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.3)}
-.hero{background:var(--night);color:#fff;padding:70px 0 90px}
-.hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.06;letter-spacing:-.02em;margin:0 0 18px;max-width:800px}
-.hero h1 em{font-style:normal;color:var(--accent)}
-.hero p{font-size:19px;color:#c9cfd8;max-width:640px;margin:0 0 30px}
-.ctas{display:flex;gap:12px;flex-wrap:wrap}
-section{padding:76px 0}section.soft{background:var(--soft)}
-h2{font-size:clamp(26px,3.4vw,38px);margin:0 0 10px;letter-spacing:-.01em}
-.lead{color:var(--muted);margin:0 0 36px;max-width:640px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:18px}
-.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px}
-.card h3{margin:6px 0 6px}.card p{margin:0;color:var(--muted)}
-.num{font-weight:800;color:var(--accent);font-size:15px}
-.price{border:2px solid var(--line)}
-.price.best{border-color:var(--accent);position:relative}
-.price .tag{position:absolute;top:-13px;left:24px;background:var(--accent);color:#1a1205;font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px}
-.amt{font-size:42px;font-weight:800;margin:6px 0}.amt small{font-size:16px;color:var(--muted);font-weight:500}
-ul.ck{padding:0;list-style:none;margin:16px 0 0}ul.ck li{padding:5px 0 5px 26px;position:relative}
-ul.ck li:before{content:"✓";position:absolute;left:0;color:#16a34a;font-weight:800}
-.examples a{display:block;text-decoration:none;color:inherit}
-.examples .thumb{height:150px;border-radius:12px;margin-bottom:14px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:20px}
-details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
-summary{font-weight:600;cursor:pointer}
-details p{color:var(--muted);margin:10px 0 0}
-.claim{background:var(--night);color:#fff;border-radius:20px;padding:44px}
-.claim p{color:#c9cfd8}
-footer{padding:30px 0;color:var(--muted);font-size:14px}
-</style>
-</head>
-<body>
-<header><div class="wrap"><div class="logo"><i></i>Porchlight Web</div><a class="btn" href="#claim">Claim your site</a></div></header>
-
-<div class="hero"><div class="wrap">
-  <h1>Your customers are searching. <em>Let them find you.</em></h1>
-  <p>We build professional websites for local service businesses: plumbers, landscapers, roofers, cleaners, HVAC and more. We build yours <b>first</b>, for free. You only pay if you love it.</p>
-  <div class="ctas"><a class="btn" href="#claim">Claim your site</a><a class="btn ghost" href="#examples">See examples</a></div>
-</div></div>
-
-<section><div class="wrap">
-  <h2>How it works</h2>
-  <p class="lead">No meetings, no tech headaches, no risk.</p>
-  <div class="grid">
-    <div class="card"><div class="num">01</div><h3>We build it first</h3><p>We create a site for your business using your services, service area and real customer reviews.</p></div>
-    <div class="card"><div class="num">02</div><h3>You take a look</h3><p>Check it out on your phone. Want changes? Tell us and we'll make them, free.</p></div>
-    <div class="card"><div class="num">03</div><h3>Go live in 48 hours</h3><p>Approve it and we connect your own domain (like yourbusiness.com) and launch.</p></div>
-  </div>
-</div></section>
-
-<section class="soft" id="pricing"><div class="wrap">
-  <h2>Simple pricing</h2>
-  <p class="lead">One-time setup. Optional care plan. Cancel anytime.</p>
-  <div class="grid">
-    <div class="card price"><h3>Launch</h3><div class="amt">$199 <small>one time</small></div>
-      <ul class="ck"><li>Custom mobile-friendly website</li><li>Tap-to-call and quote request form</li><li>Your real reviews displayed</li><li>Connected to your own domain</li><li>Free hosting</li></ul></div>
-    <div class="card price best"><span class="tag">MOST POPULAR</span><h3>Launch + Care</h3><div class="amt">$199 <small>+ $29/mo</small></div>
-      <ul class="ck"><li>Everything in Launch</li><li>Unlimited small edits (prices, photos, hours)</li><li>Google Business Profile setup and tune-up</li><li>New reviews added monthly</li><li>Domain and hosting fully managed</li></ul></div>
-  </div>
-</div></section>
-
-<section id="examples"><div class="wrap examples">
-  <h2>Example sites</h2>
-  <p class="lead">Every site is built around the business: its services, its service area and its real reviews. Here are a few samples (the businesses are fictional).</p>
-  <div class="grid">
-    <a class="card" href="s/sample-plumbing/"><div class="thumb" style="background:linear-gradient(135deg,#0b3d91,#1f6feb)">🔧 Plumbing</div><h3>Riverside Plumbing Co.</h3><p>Sample plumbing site →</p></a>
-    <a class="card" href="s/sample-minimal/"><div class="thumb" style="background:linear-gradient(135deg,#7a2a12,#b4441f)">🏠 Roofing</div><h3>Hartley Roofing</h3><p>Sample roofing site →</p></a>
-    <a class="card" href="s/sample-lawn/"><div class="thumb" style="background:linear-gradient(135deg,#1b5e24,#2f8f3a)">🌿 Lawn &amp; Landscape</div><h3>Green Acres Lawn &amp; Landscape</h3><p>Sample landscaping site →</p></a>
-  </div>
-</div></section>
-
-<section class="soft"><div class="wrap">
-  <h2>Questions</h2>
-  <details><summary>Do I really pay nothing until I approve it?</summary><p>Yes. You see the finished site first. If you don't want it, you owe nothing and we take it down.</p></details>
-  <details><summary>Do I own the site?</summary><p>Yes. The domain is registered in your name and the site is yours. If you ever leave the care plan, we hand you everything.</p></details>
-  <details><summary>I already have a Facebook page. Why do I need a website?</summary><p>Most customers search Google, not Facebook. A website ranks in search, looks more established, and gives people a one-tap way to call you.</p></details>
-  <details><summary>What about a domain name?</summary><p>We help you pick one and set it up. Domains usually cost about $12–20 a year, paid directly to the registrar in your name.</p></details>
-</div></section>
-
-<section id="claim"><div class="wrap">
-  <div class="claim">
-    <h2>Claim your site</h2>
-    <p>Got a preview link from us? Just reply to that email with "Let's go" and any changes you want. We'll send a simple invoice and launch within 48 hours.</p>
-    <p>No preview yet? Reply to any of our emails with your business name and we'll build one for free.</p>
-  </div>
-</div></section>
-
-<footer><div class="wrap">© 2026 Porchlight Web · Websites for local service businesses</div></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porchlight Web | Websites for local service businesses</title>
+    <meta name="description" content="Porchlight Web builds websites for plumbers, lawn crews, roofers, cleaners and other local trades. We build yours first. You only pay if you like it." />
+    <meta name="theme-color" content="#fcfbf9" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Porchlight Web | Websites for local service businesses" />
+    <meta property="og:description" content="We build your website first. You only pay if you like it." />
+    <link rel="icon" type="image/svg+xml" href="/sitepublic/studio-assets/favicon-BFtGaptY.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600&display=swap" />
+    <script type="module" crossorigin src="/sitepublic/studio-assets/index-C7wsTsAx.js"></script>
+    <link rel="stylesheet" crossorigin href="/sitepublic/studio-assets/index-Bm9MOWzH.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
